@@ -1,0 +1,52 @@
+@keyframes bounceIn {
+    0% {
+      transform: scaleX(0.1);
+      transform: skew(-30deg, -20deg);
+      opacity: 0;
+    }
+    60% {
+      transform: scaleX(1.5);
+      transform: skew(30deg, 20deg);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+h1{
+    color:blue;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    animation: bounceIn 5s infinite;
+}
+
+body{
+    background-image: url('https://www.123dentist.com/wp-content/uploads/2018/01/groundhog-yawning.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    background-color: purple;
+    color: aquamarine;
+    font-size: 50px;
+    border-style: solid;
+    border-color: maroon;
+    
+}
+ul{
+    color:aquamarine;
+    background-color: purple;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: maroon;
+}
+td{
+    font-size: 70px
+}
+table{
+    color:hotpink;
+    background-color: lightblue;
+}

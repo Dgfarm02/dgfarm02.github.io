@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ground Hog Day!</title>
+        <link rel="stylesheet" href="jumpstart.css">
+        <!-- fav icon -->
+        <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_9-X65USVqOeFDkteAbglgYbA74d9C2dsw&usqp=CAU"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Ground Hog Day!</h1>
+        <!-- Image -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_9-X65USVqOeFDkteAbglgYbA74d9C2dsw&usqp=CAU" alt="it's a groundhog">
+        <h2>Rules</h2>
+        <ul>
+            <li>Click a square to find the Groundhog.</li>
+            <li>If the Groundhog has no shadow, winter is over. You win!</li>
+            <li>If the hole is empty. Try again.</li>
+            <li>If the Groundhog has a shadow, six more weeks of winter. Game Over.</li>
+        </ul>
+        <br>
+        <table border="1">
+            <tr>
+                <td onclick="emojiMaker(1)" id=1> ? </td>
+                <td onclick="emojiMaker(2)" id=2> ? </td>
+                <td onclick="emojiMaker(3)" id=3> ? </td>
+            </tr>
+            <tr>
+                <td onclick="emojiMaker(4)" id=4> ? </td>
+                <td onclick="emojiMaker(5)" id=5> ? </td>
+                <td onclick="emojiMaker(6)" id=6> ? </td>
+            </tr>
+            <tr>
+                <td onclick="emojiMaker(7)" id=7> ? </td>
+                <td onclick="emojiMaker(8)" id=8> ? </td>
+                <td onclick="emojiMaker(9)" id=9> ? </td>
+            </tr>
+        </table>
+        <br>
+        <!-- RESET BUTTON -->
+        <button type="button" onClick="location.reload()"> Restart Game</button>
+        <br>
+        <br>
+        <footer> <a href="https://www.nationalgeographic.com/animals/mammals/facts/groundhog" target="_blank">Critical Groundhog Information</a> Dave & Dennis
+        </footer>
+        <script type="text/javascript" src="jumpstart.js">
+        </script>
+    </body>
+</html>
